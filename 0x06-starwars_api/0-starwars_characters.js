@@ -10,7 +10,7 @@ if (!movieId) {
 }
 
 // Construct the URL for the /films/ endpoint
-const url = `https://swapi-api.alx-tools.com/api/${movieID}/`;
+const url = `https://swapi-api.alx-tools.com/api/films/${movieId}/`;
 
 // Send a request to the Star Wars API
 request(url, { json: true }, (err, res, body) => {
